@@ -22,5 +22,5 @@ Repo Manifest Repository
 
 ## Branches
 
-* [AplexOS Repositories Manage Specification](AplexOS-Repos-Manage_All_SPEC)
+* [AplexOS Repositories Manage Specification](https://github.com/AplexOS/Manifest/tree/AplexOS-Repos-Manage_All_SPEC)
 
