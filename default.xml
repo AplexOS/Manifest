@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <!-- ssh mothed for repository. -->
+    <remote name="AplexOS"
+        fetch="https://github.com/AplexOS" />
+
+    <!-- if you want to fetch just a branch from repository, set sync-c="true". -->
+    <default revision="master"
+        remote="AplexOS"
+        sync-c="true"   
+        sync-j="4" />
+
+    <!-- local path name = server path name -->
+
+    <!-- U-Boot Specification -->
+    <project remote="AplexOS" revision="master" sync-c="true" name="U-Boot" />
+
+    <!-- Linux Kernel Specification -->
+    <project remote="AplexOS" revision="master" sync-c="true" name="Linux-Kernel" />
+    <!-- Android Specification -->
+    <project remote="AplexOS" revision="master" sync-c="true" name="Android-Examples" />
+    <!-- Linux Specification -->
+    <project remote="AplexOS" revision="master" sync-c="true" name="Linux-Examples" />
+    <!-- Windows Specification -->
+    <project remote="AplexOS" revision="master" sync-c="true" name="Windows-Examples" />
+    <!-- Qt Specification -->
+    <project remote="AplexOS" revision="master" sync-c="true" name="Qt-Examples" />
+    <!-- Development Specification -->
+    <project remote="AplexOS" revision="master" sync-c="true" name="DevTools" />
+    <!-- Simplified chinese Specification -->
+    <project remote="AplexOS" revision="master" dest-branch="master" sync-c="true" name="zh-cmn-Hans" />
+
+</manifest>
