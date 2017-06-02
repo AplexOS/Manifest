@@ -2,12 +2,12 @@
 
 <manifest>
 
-    <!-- ssh mothed for repository. -->
+    <!-- use https mothed for repository. -->
     <remote name="AplexOS"
         fetch="https://github.com/AplexOS" />
 
     <!-- if you want to fetch just a branch from repository, set sync-c="true". -->
-    <default revision="master"
+    <default 
         remote="AplexOS"
         sync-c="true"   
         sync-j="4" />
@@ -15,21 +15,22 @@
     <!-- local path name = server path name -->
 
     <!-- U-Boot Specification -->
-    <project remote="AplexOS" revision="master" sync-c="true" name="U-Boot" />
-
+    <project remote="AplexOS" revision="master" name="U-Boot" />
     <!-- Linux Kernel Specification -->
-    <project remote="AplexOS" revision="master" sync-c="true" name="Linux-Kernel" />
+    <project remote="AplexOS" revision="master" name="Linux-Kernel" />
     <!-- Android Specification -->
-    <project remote="AplexOS" revision="master" sync-c="true" name="Android-Examples" />
+    <project remote="AplexOS" revision="master" name="Android-Examples" />
     <!-- Linux Specification -->
-    <project remote="AplexOS" revision="master" sync-c="true" name="Linux-Examples" />
+    <project remote="AplexOS" revision="master" name="Linux-Examples" />
     <!-- Windows Specification -->
-    <project remote="AplexOS" revision="master" sync-c="true" name="Windows-Examples" />
+    <project remote="AplexOS" revision="master" name="Windows-Examples" />
     <!-- Qt Specification -->
-    <project remote="AplexOS" revision="master" sync-c="true" name="Qt-Examples" />
+    <project remote="AplexOS" revision="master" name="Qt-Examples" />
     <!-- Development Specification -->
-    <project remote="AplexOS" revision="master" sync-c="true" name="DevTools" />
+    <project remote="AplexOS" revision="master" name="DevTools" />
     <!-- Simplified chinese Specification -->
-    <project remote="AplexOS" revision="master" dest-branch="master" sync-c="true" name="zh-cmn-Hans" />
+    <project remote="AplexOS" revision="master" dest-branch="master" name="zh-cmn-Hans" />
+    <!-- Manifest Specification -->
+    <project remote="AplexOS" revision="master" name="Manifest" />
 
 </manifest>
