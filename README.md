@@ -2,39 +2,48 @@
 
 ## 1. Set Git Configure
 
-```shell
-    git config --global user.name "ZoroZeng"
-    git config --global user.email "aplexos@163.com"
-```
+* `git config --global user.name "ZoroZeng"`
+* `git config --global user.email "aplexos@163.com"`
 
 ## 2. Generate SSH Key
 
-```shell
-    ssh-keygen -t rsa -C "aplexos@163.com"
-```
+* `ssh-keygen -t rsa -C "aplexos@163.com"`
 
 
 ## 3. Get git-repo Tools
 
-```shell
-    cd ~ && mkdir aplexos && cd aplexos && git clone git://git.omapzoom.org/git-repo.git
-```
+* `cd ~ && mkdir AplexOS && cd AplexOS && git clone git://git.omapzoom.org/git-repo.git`
 
 
 ## 4. Get All Repos SPEC
 
-```shell
-    mkdir AplexOS-Repos-Manage_All_SPEC && cd AplexOS-Repos-Manage_All_SPEC 
-```
+* `mkdir AplexOS-Repos-Manage_All_SPEC && cd AplexOS-Repos-Manage_All_SPEC`
 
-### 4.1 init Repo
+### 4.1 Init Repo
 
-```shell
-    ../git-repo/repo init -u https://github.com/AplexOS/Manifest.git -b AplexOS-Repos-Manage_All_SPEC
-```
+* `../git-repo/repo init -u https://github.com/AplexOS/Manifest.git -b AplexOS-Repos-Manage_All_SPEC`
 
-### 4.2 sync Repo
+### 4.2 Sync Repo
 
-```shell
-    ../git-repo/repo sync --no-tags
-```
+* `../git-repo/repo sync --no-tags`
+
+### 4.2 Create branch
+
+* `../git-repo/repo start master --all`
+
+### 4.3 Checking branch
+
+* `../git-repo/repo branch`
+
+### 4.4 If you has modify repository, check the repsitory status
+
+* `../git-repo/repo status`
+* `../git-repo/repo diff`
+* `../git-repo/repo diff Manifest`
+
+### 4.5 Modify, push to remote repository
+
+* `cd <your has modified repository>`
+* `git add .`
+* `git commit -m <message>`
+* `git push <github repository url> <branch>`
