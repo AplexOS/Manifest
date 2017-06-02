@@ -20,7 +20,7 @@ Repo Manifest Repository
 * **E.g**:  
 `SBC-7109S-454`(product name)`_Linux`(system type)`_SPEC`(manifest type) = `SBC-7109S-454_Linux_SPEC`
 
-## Branches
+## 2. Branches
 
 * [AplexOS Repositories Manage Specification](https://github.com/AplexOS/Manifest/tree/AplexOS-Repos-Manage_All_SPEC)
 
