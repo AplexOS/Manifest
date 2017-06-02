@@ -3,11 +3,11 @@
 ## 1. Set Git Configure
 
 * `git config --global user.name "ZoroZeng"`
-* `git config --global user.email "aplexos@163.com"`
+* `git config --global user.email "<Your Email>"`
 
 ## 2. Generate SSH Key
 
-* `ssh-keygen -t rsa -C "aplexos@163.com"`
+* `ssh-keygen -t rsa -C "<Your Email>"`
 
 
 ## 3. Get git-repo Tools
